@@ -1,0 +1,11 @@
+{
+   "Format": "1.4",
+   "Changes": [
+   	      {
+         "Action": "EditImage",
+         "Target": "Tilesheets/Craftables",
+         "FromFile": "assets/Mushroomlog.png",
+	  "ToArea": { "X": 48, "Y": 1120, "Width": 32, "Height": 32 }
+      },
+   ]
+}

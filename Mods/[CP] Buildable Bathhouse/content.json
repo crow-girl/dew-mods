@@ -1,0 +1,136 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Bathhouse",
+			"FromFile": "assets/Bathhouse.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Bathhouse",
+			"FromFile": "assets/Bathhouse.tmx"
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Bathhouse",
+			"When": {
+				"HasMod": "PeacefulEnd.FashionSense"
+			},
+			"MapTiles": [
+				{
+					"Position": {"X": 6, "Y": 12},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "OpenFashionSense"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Bathhouse",
+			"When": {
+				"HasMod": "spacechase0.SpaceCore"
+			},
+			"MapTiles": [
+				{
+					"Position": {"X": 9, "Y": 25},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CoalBasket"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"HasMod": "spacechase0.SpaceCore"
+			},
+			"Entries": {
+				"{{ModId}}_CoalBasket": {
+					"Id": "{{ModId}}_CoalBasket",
+					"Trigger": "Manual",
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_CoalBasket",
+					"Actions": [
+						"If RANDOM 0.01 ## AddItem (O)72 1 ## If RANDOM 0.05 ## AddItem (O)382 32 ## AddItem (O)382 6",
+						"spacechase0.SpaceCore_PlaySound openBox true",
+						"spacechase0.SpaceCore_PlaySound Ship true"
+					]
+				},
+				"{{ModId}}_CoalBasket_Reset": {
+					"Id": "{{ModId}}_Coal_Reset",
+					"Trigger": "DayStarted",
+					"MarkActionApplied": false,
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_CoalBasket false"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"Entries": {
+				"leclair.sf.Bathhouse": {
+					"Name": "{{i18n:Building.Name.Bathhouse}}",
+					"Description": "{{i18n:Building.Description.Bathhouse}}",
+					"DrawShadow": true,
+					"Size": {
+						"X": 7,
+						"Y": 3
+					},
+					"Texture": "Mods/{{ModId}}/Bathhouse",
+					"SourceRect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 112,
+						"Height": 120
+					},
+					"SeasonOffset": {
+						"X": 112,
+						"Y": 0
+					},
+					"BuildCost": 5000,
+					"BuildMaterials": [
+						{
+							"ItemId": "(O)388",
+							"Amount": 200
+						},
+						{
+							"ItemId": "(O)390",
+							"Amount": 300
+						},
+						{
+							"ItemId": "(O)335",
+							"Amount": 15
+						}
+					],
+					"BuildDays": 2,
+					"Builder": "Robin",
+					"HumanDoor": {
+						"X": 3,
+						"Y": 2
+					},
+					"IndoorMap": "{{ModId}}_Bathhouse",
+					"IndoorItems": [
+						{
+							"Id": "Stove",
+							"ItemId": "(F)1798",
+							"Tile": {
+								"X": 5,
+								"Y": 24
+							}
+						}
+					],
+					"Metadata": {
+						"ChimneyPosition": "22 26"
+					}
+				}
+			}
+		}
+	]
+}

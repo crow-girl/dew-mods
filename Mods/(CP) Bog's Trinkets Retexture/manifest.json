@@ -1,0 +1,11 @@
+{
+   "Name": "Bog's Trinkets Retexture",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "all the new trinkets in my aesthetic",
+   "UniqueID": "Bogs.trinkets",
+  "UpdateKeys": ["Nexus:24162"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Bog's Witchy Fences",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "the fences of a witches dreams",
+   "UniqueID": "Bogs.WitchyFences",
+   "UpdateKeys": [ "Nexus:24740" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

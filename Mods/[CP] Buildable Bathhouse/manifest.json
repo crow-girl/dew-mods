@@ -1,0 +1,13 @@
+{
+	"Name": "[CP] Buildable Bathhouse",
+	"Author": "Khloe Leclair",
+	"Version": "2.0.0",
+	"Description": "This mod adds a new bathhouse that Robin can build for you. Go for a nice relaxing soak without ever leaving your farm!",
+	"UniqueID": "leclair.sf.bathhouse",
+	"UpdateKeys": [
+		"Nexus:13746"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

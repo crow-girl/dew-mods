@@ -1,0 +1,16 @@
+{
+  "White Cow Default": "SpottedBlack",
+  "White Cow Skins": "SpottedSilver, SpottedGrey, SpottedBlack, SolidCream, SolidBlonde, SolidFawn, SpottedFawn, BeltedBlonde, HighlandCream",
+  "Brown Cow Default": "HerefordFawn",
+  "Brown Cow Skins": "HerefordFawn, HerefordBrown, HerefordRed, SolidFawn, SolidBrown, SolidRed, SpottedBrown, SpottedRed, BeltedFawn, BeltedBrown, BeltedRed, HighlandFawn, HighlandBrown, HighlandRed",
+  "Goat Default": "SolidBlonde",
+  "Goat Skins": "SolidCream, SolidBlonde, LongSolidGrey, LongSolidSilver, SolidFawn, SolidSilver, SocksFawn, SocksSilver, BeltedFawn, BeltedBrown, BeltedSilver, LongSolidCream, LongSolidBlonde, LongSolidFawn, LongSolidBrown, LongSolidRed, LongSolidBlack, LongSocksBlonde, LongSocksFawn, LongSocksBrown, LongSocksSilver",
+  "Sheep Default": "SolidCream",
+  "Sheep Skins": "SolidCream, SocksBlonde, SocksFawn, SolidBlonde, SolidBlack, SolidSilver, SocksSilver, AlpacaSolidCream, AlpacaSolidBlonde, AlpacaSolidFawn, AlpacaSolidBrown, AlpacaSolidRed, AlpacaSolidBlack, AlpacaSolidGrey, AlpacaSolidSilver, AlpacaSpottedSilver, AlpacaSocksFawn, AlpacaSocksBrown, AlpacaSocksSilver",
+  "Pig Default": "SolidPink",
+  "Pig Skins": "SolidPink, SpottedPink, SolidFawn, BeltedPink",
+  "Ostrich Default": "Black",
+  "Ostrich Skins": "Black, Grey",
+  "Wool Recolor": "Cream",
+  "Cloth Recolor": "Cream"
+}

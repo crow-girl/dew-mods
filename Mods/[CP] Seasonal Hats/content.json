@@ -1,0 +1,237 @@
+{
+    "Format": "2.2.0",
+	
+	"Changes": [
+		//Add hats
+		{
+			"LogName": "Seasonal Hats Data - Content Patcher",
+			"Action": "EditData",
+			"Target": "Data/Hats",
+			"Entries": {
+				"KaileyStardew.SeasonalHatsCP_BeretBlack": "Beret (Black)/A black beret to complete your look for poetry nights at the saloon./true/true//Beret (Black)/0/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_BeretGreen": "Beret (Green)/A green beret that will make autumn more colorful./true/true//Beret (Green)/1/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_BeretMustard": "Beret (Mustard)/A mustard beret that will make autumn more colorful./true/true//Beret (Mustard)/2/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_BeretRed": "Beret (Red)/A red beret that will make autumn more colorful./true/true//Beret (Red)/3/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_BeretTeal": "Beret (Teal)/A teal beret that will make autumn more colorful./true/true//Beret (Teal)/4/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownBird": "Flower Crown (Bird)/When you gotta have your pet everywhere you go!/true/true//Flower Crown (Bird)/5/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownBlackWhite": "Flower Crown (BlackWhite)/Flower crown: but make it goth!/true/true//Flower Crown (BlackWhite)/6/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownBlue": "Flower Crown (Blue)/Flower crown: if flowers grew in winter!/true/true//Flower Crown (Blue)/7/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownGray": "Flower Crown (Gray)/Flower crown: for when you hate color!/true/true//Flower Crown (Gray)/8/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownGreen": "Flower Crown (Green)/Flower crown: now with 80% more leaves!/true/true//Flower Crown (Green)/9/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownOrange": "Flower Crown (Orange)/Flower crown: this is the new black!/true/true//Flower Crown (Orange)/10/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownPink": "Flower Crown (Pink)/Flower crown: that sakura feel!/true/true//Flower Crown (Pink)/11/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownPurple": "Flower Crown (Purple)/Flower crown: but make it emo!/true/true//Flower Crown (Purple)/12/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownRed": "Flower Crown (Red)/Flower crown: for maximum fall cuteness!/true/true//Flower Crown (Red)/13/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownWhitePurple": "Flower Crown (WhitePurple)/Flower crown: for when it's finally spring!/true/true//Flower Crown (WhitePurple)/14/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_FlowerCrownYellow": "Flower Crown (Yellow)/Flower crown: for blinding your friends!/true/true//Flower Crown (Yellow)/15/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_StrawHatBeekeeper": "Straw Hat (Beekeeper)/Maximum protection from our fuzzy friends!/true/true//Straw Hat (Beekeeper)/16/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_StrawHatBlue": "Straw Hat (Blue)/Good against the sun!/true/true//Straw Hat (Blue)/17/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_StrawHatFlowers": "Straw Hat (Flowers)/Like a flower crown but with more shade!/true/true//Straw Hat (Flowers)/18/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_StrawHatSunflower": "Straw Hat (Sunflower)/Why protect against the sun when you can BE the sun?/true/true//Straw Hat (Sunflower)/19/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_TrapperHat": "Trapper Hat/It'll keep your ears warm./true/true//Trapper Hat/20/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_WinterBeanieBlue": "Winter Beanie (Blue)/A blue beanie that will keep you warm during the colder season!/false/true//Winter Beanie (Blue)/21/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+				"KaileyStardew.SeasonalHatsCP_WinterBeaniePink": "Winter Beanie (Pink)/A pink beanie that will keep you warm during the colder season!/false/true//Winter Beanie (Pink)/22/Mods\\KaileyStardew.SeasonalHatsCP\\Hats",
+			}
+		},
+		//Load hat tilesheets
+		{
+			"LogName": "Seasonal Hats Load Images - Content Patcher",
+			"Action": "Load",
+			"Target": "Mods/KaileyStardew.SeasonalHatsCP/Hats",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		//Add to Hat Mouse shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "HatMouse",
+                "Items"
+            ],
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_BeretBlack": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_BeretBlack",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_BeretBlack",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_BeretGreen": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_BeretGreen",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_BeretGreen",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_BeretMustard": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_BeretMustard",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_BeretMustard",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_BeretRed": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_BeretRed",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_BeretRed",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_BeretTeal": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_BeretTeal",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_BeretTeal",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownBird": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownBird",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownBird",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownBlackWhite": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownBlackWhite",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownBlackWhite",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownBlue": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownBlue",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownBlue",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownGray": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownGray",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownGray",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownGreen": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownGreen",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownGreen",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownOrange": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownOrange",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownOrange",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownPink": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownPink",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownPink",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownPurple": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownPurple",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownPurple",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownRed": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownRed",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownRed",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownWhitePurple": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownWhitePurple",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownWhitePurple",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_FlowerCrownYellow": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_FlowerCrownYellow",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_FlowerCrownYellow",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_StrawHatBeekeeper": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_StrawHatBeekeeper",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_StrawHatBeekeeper",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_StrawHatBlue": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_StrawHatBlue",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_StrawHatBlue",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_StrawHatFlowers": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_StrawHatFlowers",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_StrawHatFlowers",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_StrawHatSunflower": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_StrawHatSunflower",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_StrawHatSunflower",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_TrapperHat": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_TrapperHat",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_TrapperHat",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_WinterBeanieBlue": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_WinterBeanieBlue",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_WinterBeanieBlue",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+            "Entries": {
+                "KaileyStardew.SeasonalHatsCP_WinterBeaniePink": {
+                    "Id": "KaileyStardew.SeasonalHatsCP_WinterBeaniePink",
+                    "ItemId": "KaileyStardew.SeasonalHatsCP_WinterBeaniePink",
+                    "Price": "1000",
+                    "AvailableStock": -1,
+                },
+            },
+        },
+	]
+}

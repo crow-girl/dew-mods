@@ -1,0 +1,131 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Purple Iridium Tools": {
+      "Section": "Bog's Witchy Tools",
+      "AllowValues": "true, false",
+      "Description": "Use purple iridium tools.",
+      "Default": "false"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/tools.png",
+      "PatchMode": "replace"
+    },
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/IridiumScythe.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "replace"
+    },
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/GoldScythe.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "replace"
+    },
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Scythe.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "replace"
+    },
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/lantern.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "replace"
+    },
+
+
+
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/rename2.png",
+      "PatchMode": "replace",
+      "When": {
+        "Purple Iridium Tools": true
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/rename.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "replace",
+      "When": {
+        "Purple Iridium Tools": true
+      }
+    }
+  ]
+}

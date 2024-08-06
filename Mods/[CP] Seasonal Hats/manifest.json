@@ -1,0 +1,11 @@
+{
+  "Name": "Seasonal Hats - Content Patcher",
+  "Author": "KaileyStardew",
+  "Version": "1.0.0",
+  "Description": "Seasonal Hats by Beans and Maea for Content Patcher.",
+  "UniqueID": "KaileyStardew.SeasonalHatsCP",
+  "UpdateKeys": [ "Nexus:25060" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

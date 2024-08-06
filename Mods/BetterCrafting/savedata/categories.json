@@ -1,0 +1,490 @@
+{
+  "6978850325005087717": {
+    "Cooking": [
+      {
+        "Id": "farming",
+        "Name": "Farming and Foraging",
+        "I18nKey": "category.food.farming",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:0"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:5"
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 10,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "mining",
+        "Name": "Mining and Magnetism",
+        "I18nKey": "category.food.mining",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Mining"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Magnetism"
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 30,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "fishing",
+        "Name": "Fishing",
+        "I18nKey": "category.food.fishing",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Fishing"
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 20,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "combat",
+        "Name": "Combat",
+        "I18nKey": "category.food.combat",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Attack"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Defense"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "23"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "28"
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 120,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Life Elixir",
+          "Muscle Remedy",
+          "Monster Musk"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "other",
+        "Name": "Luck, Speed, and Others",
+        "I18nKey": "category.food.other",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Luck"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:Speed"
+          },
+          {
+            "Id": "Buff",
+            "Inverted": false,
+            "Input": "stat:MaxEnergy"
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 50,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "4bb16482-bcea-4174-b3e3-fc4289baae41",
+        "Name": "New Category",
+        "I18nKey": "",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Uncrafted",
+            "Inverted": false
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "Emoji",
+          "Rect": {
+            "X": 54,
+            "Y": 90,
+            "Width": 9,
+            "Height": 9
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "miscellaneous",
+        "Name": "Miscellaneous",
+        "I18nKey": "category.misc",
+        "UseRules": false,
+        "DynamicRules": null,
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 0,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      }
+    ],
+    "Crafting": [
+      {
+        "Id": "decoration",
+        "Name": "Decoration",
+        "I18nKey": "category.decoration",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Floors",
+            "Inverted": false
+          },
+          {
+            "Id": "Fences",
+            "Inverted": false
+          },
+          {
+            "Id": "Furniture",
+            "Inverted": false
+          },
+          {
+            "Id": "Light",
+            "Inverted": false
+          },
+          {
+            "Id": "ContextTag",
+            "Inverted": false,
+            "Input": "sign_item"
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Wood Fence",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Tub o' Flowers",
+          "Wicked Statue",
+          "Flute Block",
+          "Drum Block",
+          "Text Sign",
+          "Garden Pot",
+          "Scarecrow",
+          "Deluxe Scarecrow",
+          "Statue Of Blessings",
+          "Statue Of The Dwarf King",
+          "Mini-Jukebox"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "fertilizer_seeds",
+        "Name": "Fertilizer and Seeds",
+        "I18nKey": "category.fertilizer_seeds",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-74"
+          },
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-19"
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Basic Fertilizer",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Grass Starter",
+          "Blue Grass Starter"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "consumables",
+        "Name": "Consumables",
+        "I18nKey": "category.consumables",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Edible",
+            "Inverted": false
+          },
+          {
+            "Id": "ContextTag",
+            "Inverted": false,
+            "Input": "totem_item"
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Field Snack",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Monster Musk",
+          "Fairy Dust",
+          "Cookout Kit",
+          "Tent Kit"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "fishing",
+        "Name": "Fishing",
+        "I18nKey": "category.fishing",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-21"
+          },
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-22"
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Barbed Hook",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Crab Pot"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "machinery",
+        "Name": "Machinery",
+        "I18nKey": "category.machinery",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Machine",
+            "Inverted": false
+          },
+          {
+            "Id": "Sprinkler",
+            "Inverted": false
+          },
+          {
+            "Id": "Storage",
+            "Inverted": false
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Chest",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "combat_rings",
+        "Name": "Combat and Rings",
+        "I18nKey": "category.combat_rings",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "ContextTag",
+            "Inverted": false,
+            "Input": "bomb_item"
+          },
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-96"
+          },
+          {
+            "Id": "Category",
+            "Inverted": false,
+            "Input": "-29"
+          }
+        ],
+        "Icon": {
+          "Type": "Item",
+          "RecipeName": "Sturdy Ring",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Staircase",
+          "Explosive Ammo"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "2af767b8-f32b-425b-9ef5-f2ff6fad6045",
+        "Name": "New Category",
+        "I18nKey": "",
+        "UseRules": true,
+        "DynamicRules": [
+          {
+            "Id": "Uncrafted",
+            "Inverted": false
+          }
+        ],
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 140,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "miscellaneous",
+        "Name": "Miscellaneous",
+        "I18nKey": "category.misc",
+        "UseRules": false,
+        "DynamicRules": null,
+        "Icon": {
+          "Type": "Texture",
+          "Source": "MouseCursors",
+          "Rect": {
+            "X": 50,
+            "Y": 428,
+            "Width": 10,
+            "Height": 10
+          },
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      }
+    ],
+    "Applied": null
+  }
+}

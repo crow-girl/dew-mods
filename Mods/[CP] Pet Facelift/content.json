@@ -1,0 +1,144 @@
+{
+	"Format": "2.0.0",
+
+
+"ConfigSchema": {
+    "Cat 1": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "orange tabby"
+	},
+    "Cat 2": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "grey tabby"
+	},
+    "Cat 3": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "orange solid"
+ 	},
+    "Cat 4": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "white"
+ 	},
+
+    "Cat 5": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "halloween"
+ 	},
+    "Cat 6": {
+	"AllowValues": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell, vanilla",
+	 "Default": "purple"
+ 	},
+    "Dog 1": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla",
+	 "Default": "retriever golden"
+	},
+    "Dog 2": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla",
+	 "Default": "german shepherd"
+	},
+    "Dog 3": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla, cocker vanilla",
+	 "Default": "cocker vanilla"
+	},
+    "Dog 4": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla",
+	 "Default": "husky"
+	},
+
+    "Dog 5": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla",
+	 "Default": "doberman"
+	},
+    "Dog 6": {
+	"AllowValues": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, vanilla",
+	 "Default": "timber wolf"
+	},
+
+
+       },
+
+
+  "Changes": [
+      
+      {
+          "Action": "Load",
+          "Target": "Animals/cat",
+          "FromFile": "assets/cat/{{Cat 1}}.png",
+		"When": {"Cat 1": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+      {
+          "Action": "Load",
+          "Target": "Animals/cat1",
+         "FromFile": "assets/cat/{{Cat 2}}.png",
+		"When": {"Cat 2": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+      {
+          "Action": "Load",
+          "Target": "Animals/cat2",
+        "FromFile": "assets/cat/{{Cat 3}}.png",
+		"When": {"Cat 3": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/cat3",
+        "FromFile": "assets/cat/{{Cat 4}}.png",
+		"When": {"Cat 4": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/cat4",
+        "FromFile": "assets/cat/{{Cat 5}}.png",
+		"When": {"Cat 5": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/cat5",
+        "FromFile": "assets/cat/{{Cat 6}}.png",
+		"When": {"Cat 6": "black bicolor, black bicolor tabby, black tabby, black under, black solid, brown bicolor, brown bicolor tabby, brown tabby, brown under, brown solid, calico dilute, calico, chimera, ghost, grey bicolor, grey bicolor tabby, grey tabby, grey under, grey solid, halloween, lykoi, orange bicolor, orange bicolor tabby, orange tabby, orange under, orange solid, pitch black, siamese fawn, siamese flame, siamese seal, torbie dilute, torbie, white, scottish fold, american curl, purple, pink, blue, tortoiseshell"}
+	},
+
+
+
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/dog",
+          "FromFile": "assets/dog/{{Dog 1}}.png",
+		"When": {"Dog 1": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner"}
+	},
+      {
+          "Action": "Load",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/dog/{{Dog 2}}.png",
+		"When": {"Dog 2": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner"}
+	},
+      {
+          "Action": "Load",
+          "Target": "Animals/dog2",
+         "FromFile": "assets/dog/{{Dog 3}}.png",
+		"When": {"Dog 3": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner, cocker vanilla"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/dog3",
+         "FromFile": "assets/dog/{{Dog 4}}.png",
+		"When": {"Dog 4": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/dog4",
+         "FromFile": "assets/dog/{{Dog 5}}.png",
+		"When": {"Dog 5": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner"}
+	},
+{
+          "Action": "Load",
+          "Target": "Animals/dog5",
+         "FromFile": "assets/dog/{{Dog 6}}.png",
+		"When": {"Dog 6": "doberman, german shepherd black, german shepherd, ghost, great dane black, great dane, grey wolf, halloween, husky red, husky, lab black, lab chocolate, lab yellow, retriever cream, retriever golden, retriever red, rottweiler, scooby doo, timber wolf, weimaraner"}
+	},
+
+
+
+    ]
+}

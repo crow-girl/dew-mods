@@ -1,0 +1,11 @@
+{
+   "Name": "Bog's Witchy Weapons",
+   "Author": "BogWytch",
+   "Version": "1.1",
+   "Description": "justa touch of magic and moss for our weapons",
+   "UniqueID": "Bogs.WitchyWeapons",
+   "UpdateKeys": [ "Nexus:24109" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

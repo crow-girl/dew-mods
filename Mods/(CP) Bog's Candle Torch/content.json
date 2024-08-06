@@ -1,0 +1,151 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Color of Candle": {
+			"AllowValues": "White, Black, Green, Pink, Purple",
+			"Default": "White"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/flame.png",
+			"ToArea": {
+				"X": 276,
+				"Y": 1965,
+				"Width": 56,
+				"Height": 8
+			},
+                  "When": {
+				"Color of Candle": "White"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/torch.png",
+			"ToArea": {
+				"X": 336,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+                  "When": {
+				"Color of Candle": "White"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/blackflame.png",
+			"ToArea": {
+				"X": 276,
+				"Y": 1965,
+				"Width": 56,
+				"Height": 8
+			},
+                  "When": {
+				"Color of Candle": "Black"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/blacktorch.png",
+			"ToArea": {
+				"X": 336,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+                  "When": {
+				"Color of Candle": "Black"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/greenflame.png",
+			"ToArea": {
+				"X": 276,
+				"Y": 1965,
+				"Width": 56,
+				"Height": 8
+			},
+                  "When": {
+				"Color of Candle": "Green"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/greentorch.png",
+			"ToArea": {
+				"X": 336,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+                  "When": {
+				"Color of Candle": "Green"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/pinkflame.png",
+			"ToArea": {
+				"X": 276,
+				"Y": 1965,
+				"Width": 56,
+				"Height": 8
+			},
+                  "When": {
+				"Color of Candle": "Pink"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pinktorch.png",
+			"ToArea": {
+				"X": 336,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+                  "When": {
+				"Color of Candle": "Pink"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/purpleflame.png",
+			"ToArea": {
+				"X": 276,
+				"Y": 1965,
+				"Width": 56,
+				"Height": 8
+			},
+                  "When": {
+				"Color of Candle": "Purple"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/purpletorch.png",
+			"ToArea": {
+				"X": 336,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+                  "When": {
+				"Color of Candle": "Purple"
+			}
+		},
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+
+{
+		"LogName": "Wood Fence Icon",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/wood.png",
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+		},
+{
+		"LogName": "Stone Fence Icon",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/stone.png",
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+		},
+{
+		"LogName": "Hardwood Fence Icon",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/hardwood.png",
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+		},
+{
+		"LogName": "Iron Fence Icon",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/iron.png",
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+		},
+		{
+		"LogName": "Gate icon",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/gate.png",
+			"ToArea": { "X": 208, "Y": 208, "Width": 16, "Height": 16 },
+		},
+
+  {
+		"LogName": "Wood fence",
+		"Priority": "Late",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/{{season}}Fence1.png",
+		},
+  {
+		"LogName": "Stone fence",
+		"Priority": "Late",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence2",
+		"FromFile": "assets/{{season}}Fence2.png",
+		},
+  {
+		"LogName": "Hardwood fence",
+		"Priority": "Late",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence5",
+		"FromFile": "assets/{{season}}Fence5.png",
+		},
+  {
+		"LogName": "Hardwood fence",
+		"Priority": "Late",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence3",
+		"FromFile": "assets/{{season}}Fence3.png",
+		},
+  ],
+}

@@ -1,0 +1,6 @@
+{
+  "FriendshipRadius": 2,
+  "NotifyAboutFriendshipInConsole": false,
+  "TimeIntervalLengthInTenMinuteIncrements": 1,
+  "AmountOfFriendshipGainedPerTimeInterval": 1
+}

@@ -1,0 +1,106 @@
+{
+  "Format": "2.0.0",
+  
+  "ConfigSchema": {
+    "Baby Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+	"Baby Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+    "Default": "Abigail"},
+    "Female Toddler Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+	"Female Toddler Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+	"Default": "Abigail"},
+	"Female Toddler Hairstyle": {"AllowValues": "Pigtails, Hairbuns",
+	"Default": "Pigtails"},
+    "Male Toddler Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+	"Male Toddler Color Scheme": {"AllowValues": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor",
+	"Default": "Abigail"},
+    "Male Toddler Hairstyle": {"AllowValues": "Combed, Messy",
+	"Default": "Combed"},
+	"Seasonal Outfits": {"AllowValues": "Always On, Always Off, Normal",
+	"Default": "Normal"}
+	},
+  
+  "Changes": [
+  
+    // Baby
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "assets/Baby/{{Baby Color Scheme}}Baby{{Baby Skin Color}}.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Baby Skin Color": "Default, Darker",
+			 "Baby Color Scheme": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor"}
+        },
+
+    // Female
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{Female Toddler Color Scheme}}{{Female Toddler Skin Color}}{{Female Toddler Hairstyle}}.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Female Toddler Skin Color": "Default, Darker",
+			 "Female Toddler Hairstyle": "Pigtails, Hairbuns",
+			 "Female Toddler Color Scheme": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor"}
+		
+		},
+		
+	// Male
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{Male Toddler Color Scheme}}{{Male Toddler Skin Color}}{{Male Toddler Hairstyle}}.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Male Toddler Skin Color": "Default, Darker",
+			 "Male Toddler Hairstyle": "Combed, Messy",
+			 "Male Toddler Color Scheme": "Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, SebastianGinger, Shane, Caroline, DiverseEmily, Sophia, Victor"}
+		
+		},
+		
+	// Seasonal
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Seasonal/Winter{{Female Toddler Color Scheme}}Female.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		    "Seasonal Outfits": "Normal",
+		     "Season": "Fall, Winter"}
+        },
+
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Seasonal/Winter{{Female Toddler Color Scheme}}Female.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		    "Seasonal Outfits": "Always On"}
+        },
+			    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Seasonal/Winter{{Male Toddler Color Scheme}}Male.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		    "Seasonal Outfits": "Normal",
+		     "Season": "Fall, Winter"}
+        },
+
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Seasonal/Winter{{Male Toddler Color Scheme}}Male.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		    "Seasonal Outfits": "Always On"}
+        },
+]
+}
+  
+  
+    
+    

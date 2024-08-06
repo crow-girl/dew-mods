@@ -1,0 +1,9 @@
+{
+   "Name": "Bog's Candle Torch",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "candle torches with a variety of colors",
+   "UniqueID": "Bogs.CandleTorch",
+   "MinimumApiVersion": "1.6",
+   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+}

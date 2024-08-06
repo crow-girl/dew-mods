@@ -1,0 +1,11 @@
+{
+    "Name": "Yarn's Mushroom Log",
+    "Author": "Yarnthebarn",
+    "Version": "1.0.0",
+    "Description": "Retextures and recolors the mushroom log.",
+    "UniqueID": "Yarnthebarn.YarnsMushroomLog",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
